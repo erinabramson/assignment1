@@ -30,32 +30,28 @@ img {
 body {
     margin: 0;
     padding: 0;
-    background-color:#731a12;
-    background-image:url('../images/bgwood.jpg');
-        background-size: 20rem;
-    color:white;
+    background-color: #731a12;
+    background-image: url('../images/bgwood.jpg');
+    background-size: 20rem;
+    color: white;
 }    
 
 header {
     overflow: hidden;
     border-bottom: .5rem solid #A62317;
-
     background-size: 20rem;
-    height:5rem
-
+    height:5rem;
 }    
 
 .logo {
     height: 8rem;
     width: auto;
-  display:block;
-  position:absolute;
-  left:0;
-  right:0;
-  top:.75rem;
-  margin:auto;
-    
-    /*padding: .5rem 5%;*/
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: .75rem;
+    margin: auto;
 }    
 
 .billboard {
@@ -67,32 +63,28 @@ header {
     background-size: 40rem;
     border-bottom: .5rem solid #A62317;
     margin-bottom: 2rem;
--webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.4);
--moz-box-shadow:    0px 7px 10px 0px rgba(0, 0, 0, 0.4);
-box-shadow:         0px 7px 10px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.4);
 }    
 
 h1 {
     margin: 6rem 0;
-
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .9);
     font-weight: normal;
     font-size: 2.5rem;
     letter-spacing: -.1rem;
-
     padding: 1rem;
 }    
 
 article{
     margin: 1em;
-
     overflow: hidden;
 }         
 
 p {
     line-height: 1.5rem;
     margin: 0 0 1.5rem 1rem;
-    /*background-color: rgba(166, 35, 23, .5);*/
 }    
 
 h2 {
@@ -111,16 +103,22 @@ footer {
 footer p {
     font-size: .75rem;
     margin: 1rem;
-}    
+    text-align: center;
+    margin-top: 2.5rem;
+}  
+
+footer a {
+    color: white;
+} 
 
 .logob {
     height: 4rem;
     width: auto;
-    display:block;
-    position:relative;
-    left:0;
-    right:0;
-    bottom:-2rem;
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: -2rem;
     margin: auto;
 }
 
@@ -131,13 +129,13 @@ figure {
 
 figure img {
     -webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow:    0px 7px 10px 0px rgba(0, 0, 0, 0.4);
-    box-shadow:         0px 7px 10px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.4);
 }    
 
 figcaption {
     font-size: .9rem;
-    font-style:italic;
+    font-style: italic;
     margin: .5rem 0 0;
     text-align: center;
 } 
